@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS users (
+    id UUID PRIMARY KEY,
+    created_at TIMESTAMP NOT NULL,
+    last_seen TIMESTAMP NOT NULL
+);
